@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DT
+XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;
+charset=windows-1251" />
+<title>Регистрация</title>
+</head>
+
+<body>
+<form name="Регистрация" id="Регистрация" method="post"
+action="reg.php">
+<table width="224" border="0">
+<tr>
+<td width="64">Фамилия</td>
+<td width="150"><label>
+<input type="text" name="Фамилия" id="Фамилия" />
+</label></td>
+</tr>
+<tr>
+<td>Пароль</td>
+<td><label>
+<input type="password" name="Пароль" id="Пароль"/>
+</label></td>
+</tr>
+<tr>
+<td>Email</td>
+<td><label>
+<input type="text" name="Email" id="Email" />
+</label></td>
+</tr>
+</table>
+<p>Посылать  новости о товарах по электронной почте?
+<label>
+<input type="checkbox" name="Отправить" id="Отправить"
+value="checkbox" checked="checked" />
+</label>
+</p>
+<p>Ваши  предпочтения
+<label>
+<select name="Категория" id="Категория">
+<option value="0" selected="selected">Новости</option>
+<option value="1">Акции</option>
+</select>
+</label>
+</p>
+<p>
+<label>
+<input type="submit" name="submit" id="submit"
+value="Зарегистрироваться"/>
+</label>
+</p>
+</form>
+</body>
+</html>
+

@@ -1,0 +1,109 @@
+/* --------------------------------------------------------------------------------------------------------------------------------------------------
+Сброс стилей
+-------------------------------------------------------------------------------------------------------------------------------------------------- */
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, img, legend, li, ol, p, pre, td, th, ul {margin:0; padding:0; border:0; vertical-align:baseline;}
+address, blockquote, dl, fieldset, form, h1, h2, h3, h4, h5, h6, ol, p, table, ul {margin:15px 0;}
+body {padding:50px 0; background:url("img/bg.png"); font:0.8em/1.5 "arial", sans-serif;}
+h1 {font-size:200%;font: 0.8em/1.5 "arial", sans-serif;}
+h2 {font-size:160%;font: 0.8em/1.5 "arial", sans-serif;}
+h3 {font-size:140%;font: 0.8em/1.5 "arial", sans-serif;}
+h4, h5, h6 {font-size:120%;}
+form ul {list-style:none;}
+form li {display:block; padding-bottom:7px;}
+form li label {display:block; padding-bottom:3px;}
+input, select, textarea {font-size:100%; font-family:"arial",sans-serif;}
+table.table {border-collapse:collapse; border-spacing:0;}
+table.table th, table.table td {padding:7px 10px;}
+table.table th {font-weight:bold;}
+ul.ul {margin-left:20px; list-style:none;}
+ul.ul li {padding-left:15px; background:url("img/ul.gif") 0 5px no-repeat;}
+ul.ul ul {margin:0 0 0 20px; list-style:none;}
+img.f-left {margin-right:15px;}
+img.f-right {margin-left:15px;}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------
+Разметка
+-------------------------------------------------------------------------------------------------------------------------------------------------- */
+#main {position:relative; width:960px; margin:0 auto;}
+#header {position:relative; padding:0 20px 20px 20px;color:#ffffff}
+#header #logo {margin:0; font-size:400%; line-height:1;color:#ffffff}
+#header #logo a {text-decoration:none;color:#ffffff}
+#header #logo span {font-weight:bold;color:#ffffff}
+#header #slogan {position:absolute; top:25px; right:20px; margin:0; font-size:180%; line-height:1; font-weight:normal;}
+#nav {position:relative; height:43px; padding:17px 5px 0 5px; background:url("img/nav.png") 0 0 no-repeat;color:#000000}
+#nav ul {margin:0; list-style:none; font-size:120%;color:#000000}
+#nav ul li {display:inline;color:#000000}
+#nav ul li a {display:block; float:left; padding:2px 17px 2px 15px; background:url("img/nav-separator.png") 100% 0 repeat-y; text-decoration:none;color:#000000}
+#nav ul li a:hover {text-decoration:underline;color:#00ffff}
+#nav ul li.last a {background:none;color:#000000}
+#nav ul li.current a {font-weight:bold;color:#000000}
+#nav #search {position:absolute; top:17px; right:20px; margin:0;}
+#nav #search #search-input {position:absolute; top:0; right:29px;}
+#nav #search #search-input input {padding:3px; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px;}
+#nav #search #search-submit {position:absolute; top:0; right:0;}
+#tray {padding:10px 20px; background:url("img/tray.png") 0 0 repeat-x;}
+#tray p {margin:0;}
+#tray p.f-left {padding-top:3px;}
+#tray p.f-left span {margin:0 5px;}
+#tray p.f-right img {display:block; float:left; margin-left:5px;}
+#section {background:url("img/section.png") 0 0 repeat-y;}
+#content {float:left; width:670px; text-align:justify;}
+#content .padding {padding:20px 20px 15px 20px;}
+#aside {float:right; width:290px; _margin-right:-10px; padding:20px 0;}
+#aside p {margin:0;}
+#aside .title {position:relative; right:-10px; width:295px; height:65px; margin:0; padding-left:5px; background:url("img/title.png") 0 0 no-repeat; font-size:140%; font-weight:normal; line-height:45px;}
+#aside .padding {padding:0 15px 15px 15px;}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------
+Домашняя страница
+-------------------------------------------------------------------------------------------------------------------------------------------------- */
+#topstory {padding:15px 20px 20px 20px; background:url("img/topstory_1.png") 0 0 repeat-x; background-size: contain;color:#ffffff}
+#topstory h1 {margin:0; font-size:240%;color:#ffffff}
+#topstory h1 a {text-decoration:none;color:#ffffff}
+#topstory p {margin:0;color:#ffffff;}
+#topstory .tag {position:relative; left:-40px; height:55px; overflow:hidden; margin-top:10px; padding-left:40px; background:url("img/tag.png") 0 0 no-repeat; line-height:35px;color:#ffffff}
+#topstory .tag a:hover {text-decoration:none;color:#00ff55}
+#topstory .tag span {padding-left:25px;}
+#topstory .tag span a:hover {text-decoration:underline;color:#00ff55}
+#topstory .tag span span {margin:0 5px; padding:0;}
+.articles {margin:-15px 0 15px 0; list-style:none;}
+.articles li {display:block; padding:15px 0;}
+.articles li .articles-img {float:left; width:200px;}
+.articles li .articles-img img {display:block;}
+.articles li .articles-desc {float:right; width:415px;}
+.articles li .articles-desc h2, p {margin:0;}
+.articles li .articles-desc h2 {margin:0; font-size:180%; line-height:1.2;}
+.articles li .articles-desc h2 a {text-decoration:none;color:#00ff55}
+.articles li .articles-desc .articles-info {margin:13px 0;}
+.articles li .articles-desc .articles-info-inner {padding:5px 10px; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px;}
+.articles li .articles-desc .articles-info-inner span {margin:0 5px;}
+.articles-info-inner {background: #EEE;color: #555;}
+.pagination {font-size:110%;}
+.pagination a {padding:5px;color:#00ff55}
+.pagination a.current {border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; text-decoration:none; font-weight:bold;background: #00ff55;
+color: white}
+.ads {margin:0; list-style:none;}
+.ads li {display:block; float:left; margin-right:10px;}
+.ads li img {display:block; width:125px; height:125px;}
+.ads li.last {margin-right:0;}
+.menu {margin:0; list-style:none;}
+.menu li {display:inline;}
+.menu li a {display:block; padding:5px 0;color:#00ff55}
+.menu li.current a {font-weight:bold; text-decoration:none;color:#000000}
+.menu li.first a {padding-top:0;color:#000000}
+.menu li.last a {padding-bottom:0; border-bottom:0 !important;}
+.sponsors {margin:0; list-style:none; font-size:85%;}
+.sponsors li {padding:10px 0;}
+.sponsors li a {font-size:115%;color:#00ff55}
+.sponsors li.first {padding-top:0;color:#000000}
+.sponsors li.last {padding-bottom:0; border-bottom:0 !important;}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------
+Прочее
+-------------------------------------------------------------------------------------------------------------------------------------------------- */
+.box {min-height:1px; _height:1%;color:#000000}
+.box:after {display:block; visibility:hidden; clear:both; line-height:0; font-size:0; content:".";color:#000000}
+.box-nomt a {color:#00ff55;}
+.f-left {float:left !important;}
+.f-right {float:right !important;}
+.nomt {margin-top:0 !important;}
+.relative {position:relative;}
+.input-text {padding:5px;}
+.input-submit {padding:3px;}
